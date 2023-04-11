@@ -5,7 +5,7 @@ import glob
 
 COMPONENTS_DIR = pathlib.Path("components")
 SOURCE_DIR = pathlib.Path("src")
-OUTPUT_DIR = pathlib.Path("dist")
+OUTPUT_DIR = pathlib.Path("docs")
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
